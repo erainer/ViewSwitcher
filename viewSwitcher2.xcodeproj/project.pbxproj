@@ -12,6 +12,8 @@
 		A14C0C3F2033CCA200129E1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14C0C3D2033CCA200129E1F /* Main.storyboard */; };
 		A14C0C412033CCA200129E1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14C0C402033CCA200129E1F /* Assets.xcassets */; };
 		A14C0C442033CCA200129E1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14C0C422033CCA200129E1F /* LaunchScreen.storyboard */; };
+		A14C0C4C2033CCE000129E1F /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14C0C4B2033CCE000129E1F /* BlueViewController.swift */; };
+		A14C0C4E2033CCFF00129E1F /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14C0C4D2033CCFF00129E1F /* YellowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A14C0C402033CCA200129E1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A14C0C432033CCA200129E1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A14C0C452033CCA200129E1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A14C0C4B2033CCE000129E1F /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		A14C0C4D2033CCFF00129E1F /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				A14C0C392033CCA200129E1F /* AppDelegate.swift */,
 				A14C0C3B2033CCA200129E1F /* ViewController.swift */,
+				A14C0C4B2033CCE000129E1F /* BlueViewController.swift */,
+				A14C0C4D2033CCFF00129E1F /* YellowViewController.swift */,
 				A14C0C3D2033CCA200129E1F /* Main.storyboard */,
 				A14C0C402033CCA200129E1F /* Assets.xcassets */,
 				A14C0C422033CCA200129E1F /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A14C0C4E2033CCFF00129E1F /* YellowViewController.swift in Sources */,
 				A14C0C3C2033CCA200129E1F /* ViewController.swift in Sources */,
+				A14C0C4C2033CCE000129E1F /* BlueViewController.swift in Sources */,
 				A14C0C3A2033CCA200129E1F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
